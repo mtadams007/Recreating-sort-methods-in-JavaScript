@@ -97,3 +97,46 @@ let selectSort = (arr) => {
   }
   return sorted;
 }
+
+// merge sort
+
+let mergeSort = (arr) => {
+  let sorted = arr;
+
+}
+
+
+let splitArray = (arr) => {
+  //creating new arrays to split our array into
+  let halfwayPoint = Math.floor(arr.length/2);
+  let arrayOfArrays = [];
+  let arr1 = arr.slice(0, halfwayPoint);
+  let arr2 = arr.slice(halfwayPoint, arr.length - 1);
+  arrayOfArrays.push(arr1);
+  arrayOfArrays.push(arr2);
+  return arrayOfArrays;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//
